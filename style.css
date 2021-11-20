@@ -4,8 +4,6 @@ body {
 #container {
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-color: black;
     align-items: center;
 }
 
@@ -15,7 +13,7 @@ body {
 }
 .square {
     border-style: solid;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin: 0 1px;
 }
