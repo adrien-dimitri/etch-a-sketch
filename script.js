@@ -13,3 +13,14 @@ rows.forEach(e => {
         e.appendChild(square);
     }
 });
+
+const squares = document.querySelectorAll(".square");
+
+squares.forEach((e) => {
+    e.addEventListener("mousemove", () => {
+        console.log(e);
+        e.setAttribute("style", "background: black");
+    });
+
+});
+

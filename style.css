@@ -14,7 +14,6 @@ body {
     padding: 1px;
 }
 .square {
-    background-color: gainsboro;
     border-style: solid;
     width: 20px;
     height: 20px;
