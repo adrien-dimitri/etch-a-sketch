@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    padding: 1px;
+}
+.square {
+    background-color: gainsboro;
+    border-style: solid;
+    width: 20px;
+    height: 20px;
+    margin: 0 1px;
+}
