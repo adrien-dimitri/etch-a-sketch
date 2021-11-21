@@ -36,7 +36,7 @@ function sketch(size){
 
 function inputTest() { //simple input test
     const input = (prompt("Input size of grid"));
-    if (input > 0 || input < 101) {
+    if (input > 0 && input < 101) {
         return input; 
     }
     alert("Invalid input. Please Enter a value between 1 and 100.");
