@@ -1,6 +1,15 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    margin: 10px auto;
+    color: #EDF1FF;
+}
 body {
     display: flex;
-    background-color: gray;
+    background-color: #34568B;
     flex-direction: column;
     align-items: center;
 
@@ -15,6 +24,7 @@ body {
 }
 
 .row {
+    background: #EDF1FF;
     display: flex;
     width: 100%;
     height: 100%;
@@ -29,4 +39,6 @@ body {
 
 #button {
     margin-bottom: 10px;
+    background-color: #EDF1FF;
+    border-radius: 6px;
 }
