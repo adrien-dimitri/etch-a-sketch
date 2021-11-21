@@ -28,9 +28,9 @@ function sketch(size){
         });      
         
         const squares = document.querySelectorAll(".square"); //Listen to mouse hover event
-        const x = Math.floor(Math.random()*255);
-        const y = Math.floor(Math.random()*255);
-        const z = Math.floor(Math.random()*255);
+        const x = getRandomValue();
+        const y = getRandomValue();
+        const z = getRandomValue();
 
         squares.forEach((e) => {
             e.setAttribute("style", `background: rgba(${x},${y},${z},0%)`) //set the bg colour of all square to be 0% opacity
@@ -40,7 +40,7 @@ function sketch(size){
                     return;
                 }
                 if (e.getAttribute("style") ==`background: rgba(${x},${y},${z},${opacity}%)`) { //if not full, add 20% to opacity
-                    opacity += 20;
+                    opacity += 10;
                     e.setAttribute("style", `background: rgba(${x},${y},${z},${opacity}%)`); 
                 };
             });
